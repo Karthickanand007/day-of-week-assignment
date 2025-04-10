@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Check day of the week logic (no date library)",
+      "setup": "javac -cp .:test:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar src/Main.java test/MainTest.java",
+      "run": "java -cp .:test:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MainTest",
+      "input": "",
+      "expected_output": "",
+      "comparison": "contains",
+      "points": 10
+    }
+  ]
+}
